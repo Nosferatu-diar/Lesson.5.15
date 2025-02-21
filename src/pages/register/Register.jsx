@@ -71,7 +71,7 @@ const Register = () => {
 	}
 
 	return (
-		<section className='bg-gray-50 dark:bg-black'>
+		<section className='bg-gray-50 dark:bg-[#111111dc]'>
 			<div className='flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0'>
 				<div className='flex items-center justify-center text-center gap-2'>
 					<NavLink className='text-2xl text-red-400 font-medium' to='/login'>
@@ -82,7 +82,7 @@ const Register = () => {
 						Register
 					</NavLink>
 				</div>
-				<div className='w-full bg-white rounded-lg shadow dark:border !mt-3 md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700'>
+				<div className='w-full  rounded-lg shadow-xl dark:border !mt-3 md:mt-0 sm:max-w-md xl:p-0  dark:border-gray-700 bg-[#111111a2]'>
 					<div className='p-6 space-y-4 md:space-y-6 sm:p-8'>
 						<h1 className='text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white'>
 							Create an account

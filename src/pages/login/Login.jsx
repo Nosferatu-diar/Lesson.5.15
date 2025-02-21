@@ -107,9 +107,9 @@ const Login = () => {
 	}
 
 	return (
-		<div className='bg-cover bg-center bg-fixed bg-black'>
+		<div className='bg-cover bg-center bg-fixed bg-[#1111111d]'>
 			<div className='h-screen flex justify-center items-center'>
-				<div className='bg-white !mx-4 !p-8 rounded shadow-md w-full md:w-1/2 lg:w-1/3'>
+				<div className='bg-[#1111112b] !mx-4 !p-8 rounded shadow-md w-full md:w-1/2 lg:w-1/3'>
 					<h1 className='text-3xl font-bold !mb-8 text-center'>
 						{isChangingPassword ? 'Change Password' : 'Login'}
 					</h1>
